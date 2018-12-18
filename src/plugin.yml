@@ -1,0 +1,8 @@
+name: AlPet
+version: 1.0
+author: Aleasdeck
+main: paket.Main
+commands:
+  pet:
+    description: Summon a pet
+    usage: /pet
