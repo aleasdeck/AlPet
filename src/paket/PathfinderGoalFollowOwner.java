@@ -7,6 +7,12 @@ import org.bukkit.entity.Player;
 
 public class PathfinderGoalFollowOwner extends PathfinderGoal {
 
+    // INFO:
+    //
+    // https://bukkit.org/threads/tut-making-a-livingentity-walk-to-a-specific-tile.139086/
+    // https://github.com/Bukkit/mc-dev/tree/master/net/minecraft/server
+    // https://github.com/Bukkit/mc-dev/blob/master/net/minecraft/server/PathfinderGoalRandomStroll.java
+
     private EntityCreature entityCreature;
     private Player petOwner;
     float speed;
