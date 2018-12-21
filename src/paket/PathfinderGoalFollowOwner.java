@@ -33,9 +33,10 @@ public class PathfinderGoalFollowOwner extends PathfinderGoal {
 
     @Override
     public boolean a() {
-        if(this.entityCreature.aI() >= 5) return false;
+        return true;
+        //if(this.entityCreature.aI() >= 5) return false;
         //else if(<shouldwalk?>) return true;
-        else return false;
+        //else return false;
     }
 
     @Override
