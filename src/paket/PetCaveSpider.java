@@ -22,6 +22,6 @@ public class PetCaveSpider extends EntityCaveSpider {
         this.setCustomName(ChatColor.AQUA + "Dcp pouk (krodet'sya)");
         this.setCustomNameVisible(true);
 
-        this.targetSelector.a(new PathfinderGoalFollowOwner(this, petOwner, 1));
+        this.targetSelector.a(new PathfinderGoalFollowOwner(this, petOwner, 0.6F));
     }
 }
